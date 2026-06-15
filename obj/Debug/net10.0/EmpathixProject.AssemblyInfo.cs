@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmpathixProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+268d2999ef7a07f8284b073e02abef8ff3205942")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4087b7794c593215481b09b71526d278780ea4e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmpathixProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmpathixProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
