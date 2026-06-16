@@ -2,9 +2,12 @@ using System;
 
 public class Guest
 {
-    public int RequestsCount { get; set; } = 0;
-    public int MaxLimit { get; set; } = 3;
+    private const int DefaultMaxLimit = 3;
 
+    public int RequestsCount { get; set; } = 0;
+    
+    
+    public int MaxLimit { get; set; } = DefaultMaxLimit;
     public bool CheckGuestLimit()
     {
         if (RequestsCount < 0)
@@ -23,4 +26,5 @@ public class Guest
     {
         RequestsCount++;
     }
+//..
 }
