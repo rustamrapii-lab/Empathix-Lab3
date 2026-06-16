@@ -2,6 +2,10 @@
 using Xunit;
 
 public class EmpathixTests
+private const int MaxLimit = 3;
+    private const int BoundaryAllowValue = 2;
+    private const int MaxTextLength = 100;
+    private const int TooLongTextLength = 101;
 {
     [Fact]
     public void TestGuestUnderLimit()
@@ -16,7 +20,7 @@ public class EmpathixTests
     public void TestGuestAtBoundaryAllow()
     {
         var guest = new Guest();
-        guest.RequestsCount = 2;
+        guest.RequestsCount = BoundaryAllowValue;
         var result = guest.CheckGuestLimit();
         Assert.True(result);
     }
@@ -25,7 +29,7 @@ public class EmpathixTests
     public void TestGuestAtLimitBlock()
     {
         var guest = new Guest();
-        guest.RequestsCount = 3;
+        guest.RequestsCount = MaxLimit;
         var result = guest.CheckGuestLimit();
         Assert.False(result);
     }
@@ -94,7 +98,7 @@ public class EmpathixTests
     public void TestProcessMaxLengthText()
     {
         var session = new GenerationSession("friendly");
-        string longText = new string('A', 100);
+        string longText = new string('A', MaxTextLength);
         var result = session.ProcessText(longText);
         Assert.Equal($"😊 {longText}", result);
     }
@@ -103,7 +107,7 @@ public class EmpathixTests
     public void TestProcessTooLongText()
     {
         var session = new GenerationSession("friendly");
-        string tooLongText = new string('A', 101);
+        string tooLongText = new string('A', TooLongTextLength);
         Assert.Throws<ArgumentException>(new Action(() => session.ProcessText(tooLongText)));
     }
 
