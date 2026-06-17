@@ -1,5 +1,5 @@
 using System;
-
+namespace EmpathixProject;
 public class Guest
 {
     private const int DefaultMaxLimit = 3;

@@ -1,6 +1,6 @@
 ﻿using System;
 using Xunit;
-
+namespace EmpathixProject;
 public class EmpathixTests
 {
     [Fact]

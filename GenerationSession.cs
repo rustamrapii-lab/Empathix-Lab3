@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-
+namespace EmpathixProject;
 public class GenerationSession
 {
     private static readonly List<string> ValidTones = new List<string> { "friendly", "professional", "empathetic" };
