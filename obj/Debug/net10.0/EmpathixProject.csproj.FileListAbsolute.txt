@@ -95,3 +95,16 @@ C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\Em
 C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\EmpathixProject.genruntimeconfig.cache
 C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\ref\EmpathixProject.dll
 C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\EmpathixProject.sourcelink.json
+C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\bin\Debug\net10.0\EmpathixProject.staticwebassets.endpoints.json
+C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\bin\Debug\net10.0\EmpathixProject.exe
+C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\EmpathixProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\scopedcss\bundle\EmpathixProject.styles.css
+C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Рустам\Desktop\Empathix-Lab2\EmpathixProject\obj\Debug\net10.0\swae.build.ex.cache
